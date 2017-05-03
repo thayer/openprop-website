@@ -1,0 +1,290 @@
+body {
+	margin:0;
+	padding:0;
+	font-family:  Verdana, Arial, Helvetica, sans-serif ;
+	font-size:.75em;
+}
+	
+p {
+	line-height:1.7em;
+	margin:0 0 15px 0;}
+	
+a {
+	font-weight:bold;
+	text-decoration:none;}
+	
+a:hover {
+	text-decoration:underline; }
+	
+h1, h2, h3 {
+	font-weight:normal; }
+	
+h1 {
+	font-size:2.2em;	
+	line-height:1em;
+	margin:0 0 0.5em 0 !important; }
+	
+h2 {
+	font-size:1.5em;
+	line-height:1em;
+	margin-top:1.2em !important;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom: 10px !important;}
+	
+h3 {
+	font-size:1.25em;
+	line-height:1em;
+	margin-top:30px !important;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom: 10px !important; }
+
+ul, ol {
+	margin:0;
+	padding:0;
+	margin-left:30px;}
+	
+ol {
+	margin-left:40px;}
+
+	
+li {
+	margin:0;
+	padding:0;
+	line-height:1.5em;
+	margin-bottom:10px; }
+	
+hr {
+	clear:both;
+	width:100%;
+	height:1px;
+	border:none; }
+	
+blockquote {
+	margin:20px 0;
+	padding:15px;
+	font-size:1.5em;
+	font-style:italic; }
+	
+table {
+	font-size:1em;
+	width:100%; }
+
+
+/*//// Global Classes //////////////////////*/
+
+
+table.datatable {
+	margin-bottom:20px;}
+
+table.datatable th {
+	text-align:left;
+	font-weight:bold;
+	font-size:1.17em;
+	padding:10px; }
+
+table.datatable td {
+	padding:10px;}
+
+
+/* The classes below style the two column pages of the site. Editing them can break the layout of your website. It is not recommended to do any editing without backing this file up. */
+
+#content .twocolumn_left {
+	width:46%;
+	padding-right:4%;}
+		
+#content .twocolumn_right {
+	width:45%;
+	padding-left:4%;}
+	
+/* Back-to button style */
+
+#content .backto_button {
+	font-size:1.17em;
+	margin-bottom:15px; }
+
+
+
+
+/*//// Page Structure //////////////////////*/
+
+
+/* Please note that editing any of the styles below can break the layout of your website. It is not recommended to do any editing without backing this file up. */
+
+#header {
+	width:980px;
+	padding:0px 0 3px 0;
+	margin-left:auto;margin-right:auto;}
+	
+#header-print {
+	position: absolute;
+	left: -999px;
+	top: -999px;
+	width: 1px;
+	height: 1px
+}
+
+#thayer-logo-print {
+	width: 1px;
+	height: 1px;
+}
+
+#mastercontainer {
+	width:980px;
+	margin-bottom:50px;
+	padding-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+	}	
+
+#navigation {
+	float:left;
+	width:185px;
+	margin-left:15px;
+	display:inline; }
+	
+#content_positioning {
+	zoom: 1; /*This is an IE specific fix required for the site to function properly */
+	margin-left:230px;
+	padding-right:30px; }
+	
+	#content {
+		float:left; }
+
+#main_body .form_description h2 {
+	font-size:100% !important;
+}
+
+
+
+#footer {
+	height:60px;
+	margin:0 15px;
+	padding-top:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:.834em;
+	line-height:1.4em;
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+/*//// Navigation //////////////////////*/
+
+
+/* Utility Nav */
+
+#header #utilitynav {
+	height:22px;
+	margin-left:0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	overflow:hidden;}
+	
+	#header #utilitynav #stripe {
+		height:16px;
+		margin:3px 0;
+		padding-right:15px;
+		text-align:right;}
+
+	#header #utilitynav a {
+		font-size:.834em;
+		text-transform:uppercase;}
+
+
+/* Global Nav */
+
+#navigation ul {
+	margin:0; }
+
+#navigation li {
+	width:185px;
+	padding:3px 0;
+	margin:0;
+	list-style-type:none; }
+	
+ 
+#navigation a {
+	display:block;
+	font-size:1.25em;
+	width:173px;
+	padding:4px 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	line-height:1.1em;
+	text-decoration:none;
+	text-transform: uppercase;  }
+	
+
+/* Sub-Nav and Related Links */	
+
+#navigation	li.subnav, #navigation #related ul {
+	width:185px;
+	border-bottom:none;
+	margin-top:3px;
+	padding:5px 0; }
+	
+	#navigation #related ul li {
+		border:none;
+		padding:0;
+		margin:0;}	
+	
+	#navigation li.subnav a, #navigation #related li a {
+		width:162px;
+		font-size:1em;
+		padding-left:18px;
+		padding-right:5px;
+		text-transform:none; }
+	
+		#navigation li.subnav a:hover, #navigation #related li a:hover {
+			text-decoration:underline; }
+
+#navigation #related{
+	width:185px;
+	margin:25px 0;
+	padding-left:0px; }
+
+#navigation #related h3 {
+	display:block;
+	width:179px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.17em;	
+	font-weight:normal;
+	line-height:1.5em;
+	text-transform:uppercase;
+	padding:0 0 0 6px;
+	margin:0 !important;}	
+
+
+/* Search */
+
+#navigation form {
+	margin-bottom:0; }
+	
+#navigation #search{
+	width:173px;
+	margin:25px 0;
+	padding-left:6px; }
+	
+	#navigation #search div#search-label {
+/* 		display:block; */
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:.92em;
+		margin-bottom:4px; }
+		
+	#navigation #search #text {
+		float:left;
+		width:134px;
+		height:17px;
+		padding:3px;
+		margin-right:3px; }
+	
+	#navigation #search #submit {
+		float:left;
+		width:25px;
+		height:25px;
+		font-size:0;
+		line-height:0;
+		border:none;}

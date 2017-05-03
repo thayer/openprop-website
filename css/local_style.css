@@ -1,0 +1,144 @@
+/*//// Global Styles //////////////////////*/
+
+
+body {
+	color:#333333;}
+	
+img {
+	border:none; }
+
+a {
+	color:#007342;}
+	
+h1, h2, h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#f49622;}
+		
+hr {
+	color: #b2d5c6;
+	background-color:#b2d5c6; }
+	
+blockquote {
+	background:url(../images/blockquote.gif) repeat-y;
+	color:#363636; }
+	
+
+/*//// Global Classes //////////////////////*/
+
+
+table.datatable {
+	border-right:1px solid #b2b2b2;
+	border-top:1px solid #b2b2b2; }
+
+table.datatable th {
+	background-color:#fcdfbc;
+	border-left:1px solid #b2b2b2;
+	border-bottom:1px solid #b2b2b2; }
+
+table.datatable td {
+	border-left:1px solid #b2b2b2;
+	border-bottom:1px solid #b2b2b2;}
+
+
+/* The classes below style the two column pages of the site. Editing them can break the layout of your website. It is not recommended to do any editing without backing this file up. */
+		
+#content .twocolumn_right {
+	border-left:1px solid #b2d5c6;}
+
+
+
+/*//// Page Structure //////////////////////*/
+
+
+/* Please note that editing any of the styles below can break the layout of your website. It is not recommended to do any editing without backing this file up. */
+
+#header {
+	}
+
+
+#mastercontainer {
+	color: #FF0000; }	
+
+
+#navigation {
+	color:#cc00ff; }
+	
+#content_positioning {
+	color: #FF0000;}
+	
+	
+	#content {
+		color:#333333;}
+
+
+#footer {
+	border-top:1px solid #f49622; }
+
+
+
+/*//// Navigation //////////////////////*/
+
+
+/* Utility Nav */
+
+#header #utilitynav {
+	border-top:1px solid #80b9a1;
+	border-bottom:1px solid #80b9a1;
+	color:#ffffff; }
+	
+	#header #utilitynav #stripe {
+		background:#007342 url(../images/stripe.gif) no-repeat; }
+
+	#header #utilitynav a {
+		color:#ffffff; }
+
+
+/* Global Nav */
+
+#navigation li {
+	border-bottom:1px solid #b2b2b2; }
+	
+ 
+#navigation a {
+	color:#007342;  }
+	
+#navigation a.current_page, #navigation a.current_page:hover {
+	background-color:#007342;
+	color:#ffffff;}
+
+#navigation a:hover {
+	background-color:#dddddd; }
+
+
+/* Sub-Nav and Related Links */	
+
+#navigation	li.subnav, #navigation #related ul {
+	background-color:#d9eae3; }
+	
+	#navigation li.subnav a, #navigation #related li a {
+		background:url(../images/bullet.gif) no-repeat 6px 8px;
+		color:#000000; }
+	
+		#navigation li.subnav a:hover, #navigation #related li a:hover {
+			background-color:#d9eae3; }
+	
+
+#navigation #related h3 {
+	color:#333333;
+	border-bottom:1px solid #b2b2b2;}	
+
+
+/* Search */
+
+#navigation #search{
+	width:0px;
+	margin:0;
+	padding-left:0px; }
+
+	#navigation #search div#search-label {
+		color:#666666; }
+		
+	#navigation #search #text {
+		color:#333333;
+		border:1px solid #b2b2b2; }
+	
